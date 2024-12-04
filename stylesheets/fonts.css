@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Lozung";
-  src: url("/BLACK-WHITE/fonts/Lozung Caps Black.otf") format("opentype");
+  src: url("../fonts/Lozung Caps Black.otf") format("opentype");
   font-style: normal;
   font-weight: 600;
 }
