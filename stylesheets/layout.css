@@ -1,3 +1,15 @@
 body {
   font-family: "Lozung";
+ 
+}
+.txt1{
+  font-size: 100vw;
+  color: white;
+  overflow: hidden;
+}
+.cube1 {
+  width: 100vw;
+  height: 705px;
+  background-color: aqua;
+  margin-top: auto;
 }
