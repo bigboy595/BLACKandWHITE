@@ -1,15 +1,46 @@
 body {
   font-family: "Lozung";
+  background-color: #1AE4FF;
  
 }
 .txt1{
-  font-size: 100vw;
+  width: 100vw;
   color: white;
+  font-size: 20vw;
   overflow: hidden;
+  background-color: #1AE4FF;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+  0 0 20px rgba(255, 255, 255, 0.6);
+  margin-top: 3vw;
 }
 .cube1 {
   width: 100vw;
-  height: 705px;
+  height: 38.403vw;
   background-color: aqua;
   margin-top: auto;
+  display: flex;
+  border-top: 2vw solid #D9FBFF;
+  border-bottom: 2vw solid #D9FBFF;
+  border-left: 0;
+  border-right: 0;
+}
+.leftcube {
+width: 48.3vw;
+height: 38.403vw;
+border-right: 2vw solid #D9FBFF;
+background-color: black;
+overflow: hidden;
+position: relative;
+}
+.tickets1{
+  background-image: url(../images/tickets.svg);
+width: 1851px;
+height: 779px;
+bottom: 10vw;
+position: absolute;
+}
+.rightcube {
+  width: 51.7vw;
+  height: 38.403vw;
+  background-color: black;
 }
