@@ -1,0 +1,65 @@
+@keyframes r2 {
+0%{
+    left: -55vw;
+}
+100%{
+    left: 60vw;
+}
+
+}
+@keyframes txt1{
+    0%{
+        
+        transform: translateX(-41vw);
+        }
+    100%{
+        transform: translateX(-180vw);
+    }
+}
+@keyframes txt2 {
+    0% {
+
+        transform: translateX(-10vw);
+        
+    }
+
+    100% {
+        transform: translateX(-232.8vw)
+    }
+}
+@keyframes plane {
+ 0%{
+    transform: rotate(0deg);
+ }
+ 100%{
+    transform: rotate(360deg);
+    }
+ }
+ @keyframes plane1 {
+     0% {
+         transform: rotate(0deg);
+     }
+
+     100% {
+         transform: rotate(-360deg);
+     }
+ }
+@keyframes left{
+0%{
+    left: -74.5vw
+}
+100%{
+    left: -31vw
+}
+
+}
+@keyframes right {
+    0% {
+        left: -31vw
+    }
+
+    100% {
+        left: -74.5vw
+    }
+
+}

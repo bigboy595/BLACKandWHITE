@@ -1,18 +1,53 @@
 body {
   font-family: "Lozung";
   background-color: #1AE4FF;
- 
+
 }
-.txt1{
+
+.txtcube{
   width: 100vw;
+  height: 22.708vw;
+  overflow: hidden;
+}
+
+.txt1 {
   color: white;
   font-size: 20vw;
-  overflow: hidden;
   background-color: #1AE4FF;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
-  0 0 20px rgba(255, 255, 255, 0.6);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.6);
   margin-top: 3vw;
+    animation: txt1;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-duration: 5s;
+     
 }
+.txtcube2 {
+  width: 100vw;
+  height: 22.708vw;
+  overflow: hidden;
+  border-top: 2vw solid #D9FBFF;
+    border-bottom: 2vw solid #D9FBFF;
+}
+
+.txt2 {
+  color: white;
+  font-size: 20vw;
+  background-color: #1AE4FF;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.6);
+  margin-top: 3vw;
+  animation: txt2;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  transform: translateX(-237.08);
+  
+  
+
+}
+
 .cube1 {
   width: 100vw;
   height: 38.403vw;
@@ -24,23 +59,212 @@ body {
   border-left: 0;
   border-right: 0;
 }
+
 .leftcube {
-width: 48.3vw;
-height: 38.403vw;
-border-right: 2vw solid #D9FBFF;
-background-color: black;
-overflow: hidden;
-position: relative;
+  width: 48.3vw;
+  height: 38.403vw;
+  border-right: 2vw solid #D9FBFF;
+  background-color: black;
+  overflow: hidden;
+  position: relative;
 }
-.tickets1{
-  background-image: url(../images/tickets.svg);
-width: 1851px;
-height: 779px;
-bottom: 10vw;
+.rotatecube{
 position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-16deg);
+ left: -10vw;
+
 }
+.tickets1 {
+  background-image: url(../images/tickets.svg);
+  width: 129.236vw;
+  /* Фиксированная ширина */
+height: 17.569vw;
+  /* Фиксированная высота */
+  position: absolute;
+  bottom: -12vw;
+ 
+  background-size: contain;
+  /* Поддержка размеров фона */
+  background-repeat: no-repeat;
+  /* Убедитесь, что фон не повторяется */
+  animation: left;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+   
+    left: -300vw;
+}
+
+.tickets2 {
+  background-image: url(../images/tickets.svg);
+  width: 129.236vw;
+  /* Фиксированная ширина */
+  height: 17.569vw;
+  /* Фиксированная высота */
+  position: absolute;
+  bottom: -31vw;
+  background-size: contain;
+  /* Поддержка размеров фона */
+  background-repeat: no-repeat;
+  /* Убедитесь, что фон не повторяется */
+    animation: right;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-duration: 2s;
+      animation-delay: 0s;
+      left: -75vw;
+}
+
+.tickets3 {
+  background-image: url(../images/tickets.svg);
+  width: 129.236vw;
+  /* Фиксированная ширина */
+  height: 17.569vw;
+  /* Фиксированная высота */
+  position: absolute;
+  bottom: -50vw;
+  background-size: contain;
+  /* Поддержка размеров фона */
+  background-repeat: no-repeat;
+  /* Убедитесь, что фон не повторяется */
+  position: absolute;
+    animation: left;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 800ms;
+   
+    left: -300vw;
+}
+
 .rightcube {
   width: 51.7vw;
   height: 38.403vw;
-  background-color: black;
+  overflow: hidden;
+  position: relative;
+  background-color: #1AE4FF;
+  
+}
+
+.r1 {
+  width: 52vw;
+  height: 38.403vw;
+  background-image: url(../images/r1.svg);
+  position: absolute;
+  background-size: contain;
+  /* Поддержка размеров фона */
+  background-repeat: no-repeat;
+  
+}
+
+.r2 {
+  width: 44.514vw;
+  height: 16vw;
+  background-image: url(../images/r2.svg);
+  background-size: contain;
+  /* Поддержка размеров фона */
+  background-repeat: no-repeat;
+  top: 23vw;
+  position: absolute;
+  animation: r2;
+  animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.r3 {
+  width: 52.083vw;
+  height: 18.819vw;
+  background-image: url(../images/r3.svg);
+  background-size: contain;
+  /* Поддержка размеров фона */
+  background-repeat: no-repeat;
+  top: 11vw;
+  left: -100vw;
+  position: absolute;
+  animation: r2;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+.r4 {
+  width: 52vw;
+  height: 38.403vw;
+  background-image: url(../images/r4.svg);
+  background-size: contain;
+  /* Поддержка размеров фона */
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.r5 {
+width: 52.083vw;
+  height: 18.819vw;
+  background-image: url(../images/r5.svg);
+  background-size: contain;
+  /* Поддержка размеров фона */
+  background-repeat: no-repeat;
+  top: -3vw;
+  left: -100vw;
+  position: absolute;
+  animation: r2;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+.r6 {
+    width: 52vw;
+      height: 38.403vw;
+      background-image: url(../images/r6.svg);
+      background-size: contain;
+      /* Поддержка размеров фона */
+      background-repeat: no-repeat;
+      position: absolute;
+      left: 1vw;
+}
+.cube2 {
+  width: 100vw;
+  height: 44.306vw;
+  background-image: url(../images/cube2bg.jpg);
+  background-size: cover;
+    /* Изображение покрывает весь элемент */
+    background-size: contain;
+    /* Изображение масштабируется, чтобы поместиться в элемент */
+  position: relative;
+  overflow: hidden;
+}
+.c2l1{
+  width: 40.972vw;
+    height: 40.972vw;
+    background-image: url(../images/pl.png);
+    background-size: contain;
+    /* Поддержка размеров фона */
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 5vw;
+    position: absolute;
+      animation: plane1;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-duration: 2s;
+  
+}
+.c2r1 {
+  width: 40.972vw;
+  height: 40.972vw;
+  background-image: url(../images/pl.png);
+  background-size: contain;
+  /* Поддержка размеров фона */
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 55vw;
+  top: 1vw;
+position: absolute;
+  animation: plane;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+ 
+
 }
