@@ -74,6 +74,7 @@ position: absolute;
   background-repeat: no-repeat;
   transform: rotate(-16deg);
  left: -10vw;
+ top: 6vw;
 
 }
 .tickets1 {
@@ -223,6 +224,7 @@ width: 52.083vw;
       position: absolute;
       left: 1vw;
 }
+
 .cube2 {
   width: 100vw;
   height: 44.306vw;
@@ -265,6 +267,278 @@ position: absolute;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: 2s;
+}
+.c2l1:hover{
+    animation-play-state: paused;
+  }
+    .c2r1:hover {
+      animation-play-state: paused;
+    }
+.cube3{
+  width: 100vw;
+  height: 42.847vw;
+  background-color: #242424;
+  position: relative;
+  border-bottom: 2vw solid #D9FBFF;
+}
+.c3m1{
+  position: absolute;
+  width: 100vw;
+  height: 32.569vw;
+  background-color: #000;
+  top: 5.417vw;
+  display: flex;
+  overflow: hidden;
+}
+.c3column{
+  width: 8.472vw;
+  height: 32.639vw;
+  background-image: url(../images/c3column.svg);
+  left: 45.556vw;
+  position: absolute;
+  background-size: contain;
+    /* Поддержка размеров фона */
+    background-repeat: no-repeat;
+}
+.c3trap{
+  width: 100vw;
+  height: 6.667vw;
+  position: absolute;
+  bottom: 0vw;
+  background-image: url(../images/c3trap.svg);
+  background-size: contain;
+    /* Поддержка размеров фона */
+    background-repeat: no-repeat;
+}
+.c3bg{
+ width: 46.528vw;
+ height: 32.639vw;
+ position: absolute;
+ background-image: url(../images/c3bg.svg);
+ background-size: contain;
+ /* Поддержка размеров фона */
+ background-repeat: no-repeat;
  
+ }
+ .c3trapsbg {
+   width: 68.264vw;
+   height: 42.847vw;
+   position: absolute;
+   background-image: url(../images/c3trapsbg.svg);
+   background-size: contain;
+   /* Поддержка размеров фона */
+   background-repeat: no-repeat;
+   left: -10vw;
+ }
+ .c3garage {
+   width: 77.5vw;
+   height: 42.847vw;
+   position: absolute;
+   background-image: url(../images/c3garage.svg);
+   background-size: contain;
+   /* Поддержка размеров фона */
+   left: 46vw;
+   bottom: -5vw;
+   background-repeat: no-repeat;
+ }
+ .c3garage:hover{
+  opacity: 0%;
+ }
+ .c3bagagel{
+    width: 46.528vw;
+      height: 32.639vw;
+      position: relative;
+      overflow: hidden;
+    }
+  .c3bagage1{
+    width: 106.806vw;
+      height: 19.861vw;
+      position: absolute;
+      background-image: url(../images/c3bagage1.svg);
+      background-size: contain;
+      /* Поддержка размеров фона */
+      left: -56vw;
+      bottom: 3vw;
+      background-repeat: no-repeat;
+      animation: bagage1;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
 
+  }  
+  .c3texture{
+    width: 40vw;
+      height: 32.639vw;
+      position: absolute;
+      background-blend-mode: screen;
+      background-image: url(../images/c3texture.png);
+      background-size: contain;
+      mix-blend-mode: screen;
+      right: 0vw;
+
+
+  }
+  .c3bagager{
+    width: 54vw;
+      height: 32.639vw;
+      position: relative;
+      overflow: hidden;
+      background-color: rgb(0, 0, 0);
+
+  }  
+  .c3bagage2 {
+      width: 106.806vw;
+      height: 19.861vw;
+      position: absolute;
+      background-image: url(../images/c3bagage2.svg);
+      background-size: contain;
+      /* Поддержка размеров фона */
+      bottom: 3vw;
+      background-repeat: no-repeat;
+      animation: bagage1;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+  
+    }
+.cube4{
+  width: 100vw;
+  height: 37.917vw;
+  position: relative;
+    background-size: contain;
+    /* Поддержка размеров фона */
+    background-repeat: no-repeat;
+    border-bottom: 2vw solid #D9FBFF;
+    display: flex;
+}
+.c4l{
+width: 59.931vw;
+  height: 37.917vw;
+  position: absolute;
+  background-size: contain;
+  /* Поддержка размеров фона */
+  background-repeat: no-repeat;
+  border-right: 2vw solid #D9FBFF;
+  overflow: hidden;
+}
+.c4l2{
+  width: 59.931vw;
+    height: 58.819vw;
+    position: absolute;
+    background-image: url(../images/c4l.svg);
+    background-size: contain;
+    /* Поддержка размеров фона */
+    background-repeat: no-repeat;
+    animation: drop;
+      animation-timing-function: ease-in;
+      animation-iteration-count: infinite;
+      animation-duration: 3s;
+}
+.c4l2:hover{
+  animation-play-state: paused ;
+}
+.c4r{
+  width: 40.069vw;
+  height: 37.917vw;
+  right: 0vw;
+    position: absolute;
+    background-size: contain;
+    /* Поддержка размеров фона */
+    background-repeat: no-repeat;
+   background-color: #000;
+    overflow: hidden;
+  
+
+}
+.c4r1{
+  width: 40.069vw;
+    height: 37.917vw;
+    right: 0vw;
+    position: absolute;
+    background-size: contain;
+    /* Поддержка размеров фона */
+    background-repeat: no-repeat;
+    background-image: url(../images/c4r1.svg);
+  left: 1.2vw;
+    overflow: hidden;
+}
+.c4r2{
+width: 24.097vw;
+  height: 27.847vw;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../images/c4r2.svg);
+  left: 9vw;
+  overflow: hidden;
+  top: 13vw;
+animation: rotate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  
+}
+.c4r3{
+  width: 16.736vw;
+    height: 16.806vw;
+    right: 0vw;
+    position: absolute;
+    background-size: contain;
+    /* Поддержка размеров фона */
+    background-repeat: no-repeat;
+    background-image: url(../images/c4r3.svg);
+    top: 0vw;
+    
+  
+}
+.txtcube3 {
+  width: 100vw;
+  height: 22.708vw;
+  overflow: hidden;
+
+  border-bottom: 2vw solid #D9FBFF;
+  position: relative;
+  display: flex;
+}
+
+.txt3 {
+  color: white;
+  font-size: 20vw;
+  background-color: #1AE4FF;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.6);
+  margin-top: 3vw;
+  animation: txt3;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  
+  position: absolute;
+}
+.c5{
+  width: 100vw;
+  height: 13vw;
+  background-color: #000;
+  position: relative;
+  display: flex;
+}
+.c5l1{
+    color: white;
+      font-size: 3vw;
+      
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+        0 0 20px rgba(255, 255, 255, 0.6);
+      margin-top: 3vw;
+      left: 5vw;
+position: absolute;
+    }
+.c5r1 {
+  color: white;
+  font-size: 3vw;
+
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.6);
+  margin-top: 3vw;
+  right: 5vw;
+  position: absolute;
 }
