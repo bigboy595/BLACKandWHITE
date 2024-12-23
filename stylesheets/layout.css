@@ -52,7 +52,6 @@ body {
   width: 100vw;
   height: 38.403vw;
   background-color: aqua;
-  margin-top: auto;
   display: flex;
   border-top: 2vw solid #D9FBFF;
   border-bottom: 2vw solid #D9FBFF;
@@ -434,8 +433,10 @@ width: 59.931vw;
       animation-iteration-count: infinite;
       animation-duration: 3s;
 }
-.c4l2:hover{
-  animation-play-state: paused ;
+.c4l2{
+  
+      background-attachment: scroll;
+    
 }
 .c4r{
   width: 40.069vw;
